@@ -6,3 +6,6 @@ name=st.text_input("Enter your evergreen name : ")
 if st.button("Submit"):
     st.write("Hello",name)
 st.badge("🌿")
+chat=st.chat_input("Ask me anything about plants 🌱")
+if chat:
+    
