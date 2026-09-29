@@ -12,7 +12,7 @@ with st.sidebar:
     personalities={
         "Kid":"Give answers like you are explaining to a 5 year old kid. Give the answer in 3 lines only.",
         "Professor":"You are an Oxford professor. Explain the topic using correct terminologies. Give the answer in 3 lines only. "
-    }
+}
     personality=st.selectbox("Select a personality",personalities.keys(),placeholder="Choose one.... ",)
     
     st.header("Upload file")
